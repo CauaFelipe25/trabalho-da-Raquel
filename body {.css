@@ -1,19 +1,30 @@
 body { 
     font-family: Arial;
     margin: 0;
-    background-color: black; /* fundo preto */
-    color: white; /* texto padrão branco pra contrastar */
+    background-color: black;
+    color: white;
+    font-size: 20px; /* letras maiores */
 }
 
 header {
     background-color: #111;
-    color: orange; /* título principal laranja */
     text-align: center;
     padding: 20px;
 }
 
+h1 {
+    color: orange;
+    font-size: 48px;
+}
+
+h2 {
+    color: orange;
+    font-size: 32px;
+}
+
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 nav li {
@@ -22,34 +33,32 @@ nav li {
 }
 
 nav a {
-    color: orange; /* links laranja */
+    color: orange;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
 }
 
 section {
-    background: #1c1c1c; /* um preto mais claro pra destacar */
+    background: #1c1c1c;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
 }
 
-h1, h2 {
-    color: orange; /* títulos e subtítulos laranja */
-}
-
 button {
-    padding: 10px;
-    background-color: orange; /* botão laranja */
+    padding: 12px;
+    background-color: orange;
     color: black;
     border: none;
     margin-top: 10px;
     cursor: pointer;
     font-weight: bold;
+    font-size: 18px;
 }
 
 button:hover {
-    background-color: darkorange; /* efeito ao passar o mouse */
+    background-color: darkorange;
 }
 
 footer {

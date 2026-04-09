@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cultura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Cultura</h1>
+</header>
+
+<section>
+    <p>A cultura mistura tradição budista com modernidade.</p>
+
+    <button onclick="location.href='turismo.html'">
+        Ir para Turismo
+    </button>
+</section>
+
+</body>
+</html>
