@@ -1,9 +1,9 @@
 body { 
     font-family: Arial;
     margin: 0;
-    background-color: black; /* fundo preto */
-    color: white; /* texto branco */
-    font-size: 20px; /* letras maiores */
+    background-color: black;
+    color: white;
+    font-size: 20px;
 }
 
 header {
@@ -15,7 +15,6 @@ header {
 h1 {
     color: orange;
     font-size: 48px;
-    text-align: center;
 }
 
 h2 {
@@ -26,6 +25,7 @@ h2 {
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 nav li {
@@ -41,7 +41,7 @@ nav a {
 }
 
 section {
-    background: #1c1c1c; /* destaca do fundo preto */
+    background: #1c1c1c;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;

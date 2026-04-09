@@ -5,7 +5,7 @@
     <title>Bangkok - História</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="boasVindas()">
 
 <header>
     <h1>Bangkok</h1>
@@ -15,10 +15,18 @@
     <h2>História</h2>
     <p>Bangkok foi fundada em 1782 e se tornou a capital da Tailândia.</p>
 
-    <button onclick="location.href='cultura.html'">
-        Ir para Cultura
-    </button>
+    <button onclick="mostrarTexto()">Mostrar mais</button>
+    <p id="extra" style="display:none;">
+        A cidade cresceu ao redor do rio Chao Phraya e se tornou um centro econômico importante.
+    </p>
+
+    <button onclick="irPara('cultura.html')">Ir para Cultura</button>
 </section>
 
+<footer>
+    <p>Integrantes: Seu Nome, Nome 2, Nome 3</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
