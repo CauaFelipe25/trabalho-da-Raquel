@@ -5,7 +5,7 @@ function boasVindas() {
 function mostrarTexto() {
     var texto = document.getElementById("extra");
 
-    if (texto.style.display === "none") {
+    if (texto.style.display === "none" || texto.style.display === "") {
         texto.style.display = "block";
     } else {
         texto.style.display = "none";
@@ -13,7 +13,7 @@ function mostrarTexto() {
 }
 
 function mudarCor() {
-    document.body.style.backgroundColor = "#dff9fb";
+    document.body.style.backgroundColor = "black";
 }
 
 var numero = 0;
@@ -21,4 +21,3 @@ var numero = 0;
 function contador() {
     numero++;
     document.getElementById("numero").innerText = numero;
-}
